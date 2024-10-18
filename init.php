@@ -1,3 +1,4 @@
+<?php
 AddEventHandler("iblock", "OnBeforeIBlockElementUpdate", "OnBeforeElementUpdateHandler");
 
 function OnBeforeElementUpdateHandler(&$arFields) {
@@ -39,3 +40,4 @@ function OnBeforeElementUpdateHandler(&$arFields) {
         }
     }
 }
+?>
